@@ -10,4 +10,5 @@ mkdir zombies
 cd zombies
 git clone git@github.com:pgscandeias/zombies.git
 open index.html
+subl .
 ```
