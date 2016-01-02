@@ -1,0 +1,29 @@
+<doctype html>
+<head>
+    <title>Zombies!</title>
+</head>
+<body>
+    <h1>Zombies!</h1>
+
+    <ul class="state">
+        <li id="date"></li>
+    </ul>
+
+    <div class="controls">
+        <button type="button" onClick="location.reload()">
+            Restart
+        </button>
+
+        <button type="button" onClick="Game.searchSurvivors()">
+            Search for survivors
+        </button>
+
+        <button type="button" onClick="Game.searchFood()">
+            Search for food
+        </button>
+    </div>
+
+    <script type="text/javascript" src="./vendor/moment.js"></script>
+    <script type="text/javascript" src="./vendor/knockout-3.4.0.js"></script>
+    <script type="text/javascript" src="./app/game.js"></script>
+</body>
